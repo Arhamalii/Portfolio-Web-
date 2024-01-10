@@ -1,27 +1,25 @@
 import {
   backend,
+  bs,
   carrent,
   creator,
+  cryslis,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
   jobit,
-  meta,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
-  shopify,
-  starbucks,
+  socket,
   tailwind,
-  tesla,
   threejs,
   tripguide,
-  typescript,
+  upwork,
   web,
 } from "../assets";
 
@@ -42,7 +40,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -72,10 +70,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -87,6 +82,10 @@ const technologies = [
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bs,
   },
   {
     name: "Node JS",
@@ -101,6 +100,10 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "bs",
+    icon: socket,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -108,19 +111,15 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Cryslis Technologies",
+    icon: cryslis,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +128,17 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "MERN Stack Developer",
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Independently crafting and maintaining web applications using the MERN Stack ",
+      "Ensuring seamless user experiences with responsive design and seamless functionality in projects.",
+
+      "Proficiently handling end-to-end development tasks, from design to deployment individually or with a team.",
+      "Efficiently meeting deadlines through proactive time management.",
     ],
   },
 ];

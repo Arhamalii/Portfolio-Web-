@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Tilt } from "react-tilt";
 
-import { github } from "../assets";
+import { visitWeb } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -39,7 +39,7 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={visitWeb}
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -92,6 +92,13 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+      <div className="flex justify-center">
+        <button className="mt-16 green-pink-gradient p-[1px] rounded-[10px] shadow-card btn-animation  ">
+          <button className="bg-tertiary rounded-[10px] p-4 min-h-[4px] ">
+            See All Projects &#8594;
+          </button>
+        </button>
       </div>
     </>
   );
