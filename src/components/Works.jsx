@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Link } from "react-router-dom";
 import { Tilt } from "react-tilt";
-
 import { visitWeb } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -94,10 +94,15 @@ const Works = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <button className="mt-16 green-pink-gradient p-[1px] rounded-[10px] shadow-card btn-animation  ">
-          <button className="bg-tertiary rounded-[10px] p-4 min-h-[4px] ">
-            See All Projects &#8594;
-          </button>
+        <button className="mt-16 green-pink-gradient p-[1px] rounded-[10px] shadow-card projectBtn-animation  ">
+          <Link to={"/projects"}>
+            <div
+              to={"/projects"}
+              className="bg-tertiary rounded-[10px] p-4 min-h-[4px] font-semibold "
+            >
+              See All Projects
+            </div>
+          </Link>
         </button>
       </div>
     </>

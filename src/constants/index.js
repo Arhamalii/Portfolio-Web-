@@ -30,7 +30,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -146,27 +150,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Highly talented JavaScript programmer who quickly understood the requirements, communicated clearly, and did a fantastic job.",
+    name: "James Smith",
+    designation: "AT",
+    company: "Upwork",
+    image:
+      "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-541.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705622400&semt=ais",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Great Person to work with. Very professional and easily understood my requiremenrs. Would definaltely hire him again.",
+    name: "Mohammed",
+    designation: "AT",
+    company: "Freelancer",
+    image:
+      "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-541.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705622400&semt=ais",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "A wonderful web developer with professional expertise, I have worked with him twice and have always been satisfied.",
+    name: "Emma Müller",
+    designation: "AT",
+    company: "Freelancer",
+    image:
+      "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-541.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705622400&semt=ais",
   },
 ];
 
